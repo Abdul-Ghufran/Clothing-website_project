@@ -1,0 +1,124 @@
+
+
+.header{
+  background-color:black;
+  padding:50px 0;
+  text-align:center;
+  color:white;
+}
+.header h1{
+font-size:40px;
+letter-spacing:4px;
+}
+.header p{
+font-family:Courier new;
+}
+nav{
+padding:10px 0px;
+display:flex;
+justify-content:center;
+background-color:#666666;
+}
+.menubuttons{
+text-align:center;
+}
+.menubuttons ul li{
+list-style:none;
+display:inline-block;
+padding:5px 5px;
+}
+.homepage{
+background-color:lightblue;
+border-radius:25px;
+padding:5px 5px;
+}
+.menubuttons ul li a{
+text-decoration:none;
+font-size:18px;
+color:white;
+border-radius:25px;
+padding:6px 12px;
+}
+.menubuttons a:hover {
+  background-color: lightblue;
+  color: white;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+main {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 78vh;
+}
+
+.login-container {
+    background-color: #fff;
+    padding: 70px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group {
+    margin-bottom: 15px; 
+}
+
+label {
+    margin-bottom: 5px;
+    display: block;
+    font-weight: bold;
+}
+
+input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+.imagegallery{
+display:flex; 
+}
+.box{
+width:25%;
+height:25%;
+text-align:center;
+padding:10px 10px;
+margin:0px 5px;
+}
+.box h3{
+color:#2F94A8;
+padding:60px 0 25px;
+font-size:23px;
+letter-spacing:3px;
+}
+.box p{
+word-spacing:2px;
+font-size:20px;
+padding:30px 15px 15px;
+line-height:30px;
+}
